@@ -1,0 +1,38 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "http-server src",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Landyshlana/test-webpack.git"
+  },
+  "author": "lana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Landyshlana/test-webpack/issues"
+  },
+  "homepage": "https://github.com/Landyshlana/test-webpack#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.8.0",
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "dependencies": {
+    "core-js": "^3.36.0"
+  }
+}
